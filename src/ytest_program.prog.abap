@@ -3,11 +3,13 @@ REPORT demo_amdp.
 CLASS demo DEFINITION.
   PUBLIC SECTION.
     CLASS-METHODS main.
+    data:C type c.
 ENDCLASS.
 
 
 "Deve2
 "Dev3
+"Dev4
 CLASS demo IMPLEMENTATION.
   METHOD main.
     IF NOT cl_abap_dbfeatures=>use_features(
